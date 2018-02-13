@@ -3,7 +3,7 @@
     <title>primeflix</title>
     <link href="https://PrimeFlix.github.io/feed.xml" rel="self" />
     <link href="https://PrimeFlix.github.io" />
-    <updated>2018-02-14T00:08:20+01:00</updated>
+    <updated>2018-02-14T00:30:01+01:00</updated>
     <author>
         <name>PrimeFlix</name>
     </author>
@@ -14,29 +14,15 @@
         <author>
             <name>PrimeFlix</name>
         </author>
-        <link href="https://PrimeFlix.github.io/sintel.html"/>
-        <id>https://PrimeFlix.github.io/sintel.html</id>
+        <link href="https://PrimeFlix.github.io/sintel/"/>
+        <id>https://PrimeFlix.github.io/sintel/</id>
 
         <updated>2018-02-14T00:05:49+01:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                PrimeFlix
-<div id="hero">
-<div id="output">
-<div id="progressBar"> </div>
-<!-- The video player will be added here --></div>
-<!-- Statistics -->
-<div id="status">
-<div><span class="show-leech">Downloading </span> <span class="show-seed">Seeding </span> <code>
-      <!-- Informative link to the torrent file -->
-      <a id="torrentLink" href="https://webtorrent.io/torrents/sintel.torrent">sintel.torrent</a>
-    </code> <span class="show-leech"> from </span> <span class="show-seed"> to </span> <code id="numPeers">0 peers</code>.</div>
-<div><code id="downloaded"></code> of <code id="total"></code> — <span id="remaining"></span><br> ↘<code id="downloadSpeed">0 b/s</code> / ↗<code id="uploadSpeed">0 b/s</code></div>
-</div>
-</div>
-<!-- Include the latest version of WebTorrent --> <!-- Moment is used to show a human-readable remaining time -->
-            ]]>
-        </content>
+            <summary>
+                <![CDATA[
+                    PrimeFlix Downloading Seeding sintel.torrent from to 0 peers. of — ↘0 b/s /&hellip;
+                ]]>
+            </summary>
+        <content></content>
     </entry>
 </feed>

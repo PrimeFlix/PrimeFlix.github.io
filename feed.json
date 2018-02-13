@@ -10,10 +10,10 @@
     },
     "items": [
         {
-            "id": "https://PrimeFlix.github.io/sintel.html",
-            "url": "https://PrimeFlix.github.io/sintel.html",
+            "id": "https://PrimeFlix.github.io/sintel/",
+            "url": "https://PrimeFlix.github.io/sintel/",
             "title": "Sintel",
-            "content_html": "PrimeFlix\n<div id=\"hero\">\n<div id=\"output\">\n<div id=\"progressBar\"> </div>\n<!-- The video player will be added here --></div>\n<!-- Statistics -->\n<div id=\"status\">\n<div><span class=\"show-leech\">Downloading </span> <span class=\"show-seed\">Seeding </span> <code>\n      <!-- Informative link to the torrent file -->\n      <a id=\"torrentLink\" href=\"https://webtorrent.io/torrents/sintel.torrent\">sintel.torrent</a>\n    </code> <span class=\"show-leech\"> from </span> <span class=\"show-seed\"> to </span> <code id=\"numPeers\">0 peers</code>.</div>\n<div><code id=\"downloaded\"></code> of <code id=\"total\"></code> — <span id=\"remaining\"></span><br> ↘<code id=\"downloadSpeed\">0 b/s</code> / ↗<code id=\"uploadSpeed\">0 b/s</code></div>\n</div>\n</div>\n<!-- Include the latest version of WebTorrent --> <!-- Moment is used to show a human-readable remaining time -->",
+            "summary": "PrimeFlix Downloading Seeding sintel.torrent from to 0 peers. of — ↘0 b/s /&hellip;",
             "author": {
                 "name": "PrimeFlix"
             },
