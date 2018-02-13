@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "primeflix",
+    "description": "",
+    "home_page_url": "https://PrimeFlix.github.io/gh-pages",
+    "feed_url": "https://PrimeFlix.github.io/gh-pages/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "PrimeFlix"
+    },
+    "items": [
+        {
+            "id": "https://PrimeFlix.github.io/gh-pages/1-post.html",
+            "url": "https://PrimeFlix.github.io/gh-pages/1-post.html",
+            "title": "1. Post",
+            "summary": "1. post test",
+            "author": {
+                "name": "PrimeFlix"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-02-13T21:50:43+01:00",
+            "date_modified": "2018-02-13T21:50:43+01:00"
+        }
+    ]
+}

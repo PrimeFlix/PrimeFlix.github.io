@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>primeflix</title>
+    <link href="https://PrimeFlix.github.io/gh-pages/feed.xml" rel="self" />
+    <link href="https://PrimeFlix.github.io/gh-pages" />
+    <updated>2018-02-13T21:51:18+01:00</updated>
+    <author>
+        <name>PrimeFlix</name>
+    </author>
+    <id>https://PrimeFlix.github.io/gh-pages</id>
+
+    <entry>
+        <title>1. Post</title>
+        <author>
+            <name>PrimeFlix</name>
+        </author>
+        <link href="https://PrimeFlix.github.io/gh-pages/1-post.html"/>
+        <id>https://PrimeFlix.github.io/gh-pages/1-post.html</id>
+
+        <updated>2018-02-13T21:50:43+01:00</updated>
+            <summary>
+                <![CDATA[
+                    1. post test
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+</feed>
