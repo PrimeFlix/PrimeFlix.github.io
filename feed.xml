@@ -3,10 +3,26 @@
     <title>primeflix</title>
     <link href="https://PrimeFlix.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://PrimeFlix.github.io/gh-pages" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2018-02-13T22:13:18+01:00</updated>
     <author>
         <name>PrimeFlix</name>
     </author>
     <id>https://PrimeFlix.github.io/gh-pages</id>
 
+    <entry>
+        <title>Quick Example</title>
+        <author>
+            <name>PrimeFlix</name>
+        </author>
+        <link href="https://PrimeFlix.github.io/gh-pages/quick-example.html"/>
+        <id>https://PrimeFlix.github.io/gh-pages/quick-example.html</id>
+
+        <updated>2018-02-13T22:12:49+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Quick Example
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
 </feed>

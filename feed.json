@@ -9,5 +9,18 @@
         "name": "PrimeFlix"
     },
     "items": [
+        {
+            "id": "https://PrimeFlix.github.io/gh-pages/quick-example.html",
+            "url": "https://PrimeFlix.github.io/gh-pages/quick-example.html",
+            "title": "Quick Example",
+            "summary": "Quick Example",
+            "author": {
+                "name": "PrimeFlix"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-02-13T22:12:49+01:00",
+            "date_modified": "2018-02-13T22:12:49+01:00"
+        }
     ]
 }
