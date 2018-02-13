@@ -2,25 +2,25 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "primeflix",
     "description": "",
-    "home_page_url": "https://PrimeFlix.github.io/gh-pages",
-    "feed_url": "https://PrimeFlix.github.io/gh-pages/feed.json",
+    "home_page_url": "https://PrimeFlix.github.io",
+    "feed_url": "https://PrimeFlix.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "PrimeFlix"
     },
     "items": [
         {
-            "id": "https://PrimeFlix.github.io/gh-pages/quick-example.html",
-            "url": "https://PrimeFlix.github.io/gh-pages/quick-example.html",
-            "title": "Quick Example",
-            "summary": "WebTorrent video player Downloading Seeding sintel.torrent from to 0 peers. of — ↘0&hellip;",
+            "id": "https://PrimeFlix.github.io/sintel.html",
+            "url": "https://PrimeFlix.github.io/sintel.html",
+            "title": "Sintel",
+            "content_html": "PrimeFlix\n<div id=\"hero\">\n<div id=\"output\">\n<div id=\"progressBar\"> </div>\n<!-- The video player will be added here --></div>\n<!-- Statistics -->\n<div id=\"status\">\n<div><span class=\"show-leech\">Downloading </span> <span class=\"show-seed\">Seeding </span> <code>\n      <!-- Informative link to the torrent file -->\n      <a id=\"torrentLink\" href=\"https://webtorrent.io/torrents/sintel.torrent\">sintel.torrent</a>\n    </code> <span class=\"show-leech\"> from </span> <span class=\"show-seed\"> to </span> <code id=\"numPeers\">0 peers</code>.</div>\n<div><code id=\"downloaded\"></code> of <code id=\"total\"></code> — <span id=\"remaining\"></span><br> ↘<code id=\"downloadSpeed\">0 b/s</code> / ↗<code id=\"uploadSpeed\">0 b/s</code></div>\n</div>\n</div>\n<!-- Include the latest version of WebTorrent --> <!-- Moment is used to show a human-readable remaining time -->",
             "author": {
                 "name": "PrimeFlix"
             },
             "tags": [
             ],
-            "date_published": "2018-02-13T22:12:49+01:00",
-            "date_modified": "2018-02-13T22:27:38+01:00"
+            "date_published": "2018-02-14T00:05:49+01:00",
+            "date_modified": "2018-02-14T00:05:49+01:00"
         }
     ]
 }

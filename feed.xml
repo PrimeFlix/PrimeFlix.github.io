@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>primeflix</title>
-    <link href="https://PrimeFlix.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://PrimeFlix.github.io/gh-pages" />
-    <updated>2018-02-13T22:54:38+01:00</updated>
+    <link href="https://PrimeFlix.github.io/feed.xml" rel="self" />
+    <link href="https://PrimeFlix.github.io" />
+    <updated>2018-02-14T00:08:20+01:00</updated>
     <author>
         <name>PrimeFlix</name>
     </author>
-    <id>https://PrimeFlix.github.io/gh-pages</id>
+    <id>https://PrimeFlix.github.io</id>
 
     <entry>
-        <title>Quick Example</title>
+        <title>Sintel</title>
         <author>
             <name>PrimeFlix</name>
         </author>
-        <link href="https://PrimeFlix.github.io/gh-pages/quick-example.html"/>
-        <id>https://PrimeFlix.github.io/gh-pages/quick-example.html</id>
+        <link href="https://PrimeFlix.github.io/sintel.html"/>
+        <id>https://PrimeFlix.github.io/sintel.html</id>
 
-        <updated>2018-02-13T22:27:38+01:00</updated>
-            <summary>
-                <![CDATA[
-                    WebTorrent video player Downloading Seeding sintel.torrent from to 0 peers. of — ↘0&hellip;
-                ]]>
-            </summary>
-        <content></content>
+        <updated>2018-02-14T00:05:49+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                PrimeFlix
+<div id="hero">
+<div id="output">
+<div id="progressBar"> </div>
+<!-- The video player will be added here --></div>
+<!-- Statistics -->
+<div id="status">
+<div><span class="show-leech">Downloading </span> <span class="show-seed">Seeding </span> <code>
+      <!-- Informative link to the torrent file -->
+      <a id="torrentLink" href="https://webtorrent.io/torrents/sintel.torrent">sintel.torrent</a>
+    </code> <span class="show-leech"> from </span> <span class="show-seed"> to </span> <code id="numPeers">0 peers</code>.</div>
+<div><code id="downloaded"></code> of <code id="total"></code> — <span id="remaining"></span><br> ↘<code id="downloadSpeed">0 b/s</code> / ↗<code id="uploadSpeed">0 b/s</code></div>
+</div>
+</div>
+<!-- Include the latest version of WebTorrent --> <!-- Moment is used to show a human-readable remaining time -->
+            ]]>
+        </content>
     </entry>
 </feed>
