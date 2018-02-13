@@ -3,7 +3,7 @@
     <title>primeflix</title>
     <link href="https://PrimeFlix.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://PrimeFlix.github.io/gh-pages" />
-    <updated>2018-02-13T21:51:18+01:00</updated>
+    <updated>2018-02-13T21:54:10+01:00</updated>
     <author>
         <name>PrimeFlix</name>
     </author>
@@ -21,6 +21,22 @@
             <summary>
                 <![CDATA[
                     1. post test
+                ]]>
+            </summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>sentil</title>
+        <author>
+            <name>PrimeFlix</name>
+        </author>
+        <link href="https://PrimeFlix.github.io/gh-pages/sentil.html"/>
+        <id>https://PrimeFlix.github.io/gh-pages/sentil.html</id>
+
+        <updated>2018-02-13T18:00:35+01:00</updated>
+            <summary>
+                <![CDATA[
+                    &lt;!doctype html&gt;Download files using the WebTorrent protocol (BitTorrent over WebRTC).Download from a magnet link: DownloadLog 
                 ]]>
             </summary>
         <content></content>
