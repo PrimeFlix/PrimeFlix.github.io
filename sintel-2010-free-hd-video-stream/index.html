@@ -12,7 +12,7 @@
         <link type="application/atom+xml" rel="alternate" href="https://PrimeFlix.github.io/feed.xml"/>
         <meta property="og:title" content="Sintel (2010) - Free HD Video Stream" /><meta property="og:image" content="https://PrimeFlix.github.io/media/posts/2/Sintel-2010-Free-HD-Video-Stream.jpg"/><meta property="og:site_name" content="PrimeFlix" /><meta property="og:description" content="Sintel (2010) - Free HD Video Stream" />
         <link rel="stylesheet" href="https://PrimeFlix.github.io/assets/css/style.css">
-        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://PrimeFlix.github.io/sintel-2010-free-hd-video-stream/"},"headline":"Sintel (2010) - Free HD Video Stream","datePublished":"2018-02-28T15:17","dateModified":"2018-02-28T21:59","image":{"@type":"ImageObject","url":"https://PrimeFlix.github.io/media/posts/2/Sintel-2010-Free-HD-Video-Stream.jpg","height":900,"width":600},"description":"Sintel (2010) - Free HD Video Stream","author":{"@type":"Person","name":"PrimeFlix"},"publisher":{"@type":"Organization","name":"PrimeFlix"}}</script>
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://PrimeFlix.github.io/sintel-2010-free-hd-video-stream/"},"headline":"Sintel (2010) - Free HD Video Stream","datePublished":"2018-02-28T15:17","dateModified":"2018-03-09T06:27","image":{"@type":"ImageObject","url":"https://PrimeFlix.github.io/media/posts/2/Sintel-2010-Free-HD-Video-Stream.jpg","height":900,"width":600},"description":"Sintel (2010) - Free HD Video Stream","author":{"@type":"Person","name":"PrimeFlix"},"publisher":{"@type":"Organization","name":"PrimeFlix"}}</script>
         
     </head>
     <body>
@@ -100,6 +100,95 @@
 <p> </p>
 <h4 class="6">Sintel (2010) - Free HD Video Stream:</h4>
 <p> </p>
+<div id="hero">
+<div id="output">
+<div id="progressBar"> </div>
+<!-- The video player will be added here --></div>
+<!-- Statistics -->
+<div id="status">
+<div><span class="show-leech">Buffering </span> <span class="show-seed">Buffering </span> <code>
+            <!-- Informative link to the torrent file -->
+            <a id="torrentLink" href="https://webtorrent.io/torrents/sintel.torrent">Sintel (2010)</a>
+          </code> <span class="show-leech"> from </span> <span class="show-seed"> to </span> <code id="numPeers">0 peers</code>.</div>
+<div><code id="downloaded"></code> of <code id="total"></code> — <span id="remaining"></span><br> ↘<code id="downloadSpeed">0 b/s</code> / ↗<code id="uploadSpeed">0 b/s</code></div>
+</div>
+</div>
+<!-- Include the latest version of WebTorrent -->
+<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+<!-- Moment is used to show a human-readable remaining time -->
+<script src="http://momentjs.com/downloads/moment.min.js"></script>
+<script>// <![CDATA[
+var torrentId = 'https://webtorrent.io/torrents/sintel.torrent'
+var client = new WebTorrent()
+
+      // HTML elements
+      var $body = document.body
+      var $progressBar = document.querySelector('#progressBar')
+      var $numPeers = document.querySelector('#numPeers')
+      var $downloaded = document.querySelector('#downloaded')
+      var $total = document.querySelector('#total')
+      var $remaining = document.querySelector('#remaining')
+      var $uploadSpeed = document.querySelector('#uploadSpeed')
+      var $downloadSpeed = document.querySelector('#downloadSpeed')
+
+      // Download the torrent
+      client.add(torrentId, function (torrent) {
+
+        // Torrents can contain many files. Let's use the .mp4 file
+        var file = torrent.files.find(function (file) {
+          return file.name.endsWith('.mp4')
+        })
+
+        // Stream the file in the browser
+        file.appendTo('#output')
+
+        // Trigger statistics refresh
+        torrent.on('done', onDone)
+        setInterval(onProgress, 500)
+        onProgress()
+
+        // Statistics
+        function onProgress () {
+          // Peers
+          $numPeers.innerHTML = torrent.numPeers + (torrent.numPeers === 1 ? ' peer' : ' peers')
+
+          // Progress
+          var percent = Math.round(torrent.progress * 100 * 100) / 100
+          $progressBar.style.width = percent + '%'
+          $downloaded.innerHTML = prettyBytes(torrent.downloaded)
+          $total.innerHTML = prettyBytes(torrent.length)
+
+          // Remaining time
+          var remaining
+          if (torrent.done) {
+            remaining = 'Done.'
+          } else {
+            remaining = moment.duration(torrent.timeRemaining / 1000, 'seconds').humanize()
+            remaining = remaining[0].toUpperCase() + remaining.substring(1) + ' remaining.'
+          }
+          $remaining.innerHTML = remaining
+
+          // Speed rates
+          $downloadSpeed.innerHTML = prettyBytes(torrent.downloadSpeed) + '/s'
+          $uploadSpeed.innerHTML = prettyBytes(torrent.uploadSpeed) + '/s'
+        }
+        function onDone () {
+          $body.className += ' is-seed'
+          onProgress()
+        }
+      })
+
+      // Human readable bytes util
+      function prettyBytes(num) {
+        var exponent, unit, neg = num < 0, units = ['B', 'kB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
+        if (neg) num = -num
+        if (num < 1) return (neg ? '-' : '') + num + ' B'
+        exponent = Math.min(Math.floor(Math.log(num) / Math.log(1000)), units.length - 1)
+        num = Number((num / Math.pow(1000, exponent)).toFixed(2))
+        unit = units[exponent]
+        return (neg ? '-' : '') + num + ' ' + unit
+      }
+// ]]></script>
 </div>
                 </div>
                     <aside>
@@ -145,7 +234,44 @@
                                         </li>
                                 </ul>
 
+                                <nav class="post__nav">
+                                        <div class="post__nav__next">
+                                            Next Post
+                                            <h5>
+                                                <a href="https://PrimeFlix.github.io/game-of-thrones-2011-free-hd-video-stream/" class="inverse" rel="next">
+                                                    Game of Thrones (2011) - Free HD Video Stream
+                                                </a>
+                                            </h5>
+                                        </div>
+                                </nav>
 
+                                <div class="post__related">
+                                    <h3>
+                                        Related posts
+                                    </h3>
+                                    <div class="post__related__wrap">
+                                            <figure>
+                                                <figcaption>
+                                                    <time datetime="2018-03-09T05:31">
+                                                            March 9, 2018
+                                                    </time>
+                                                    <h4>
+                                                        <a href="https://PrimeFlix.github.io/game-of-thrones-2011-free-hd-video-stream/" class="inverse">Game of Thrones (2011) - Free HD Video Stream</a>
+                                                    </h4>
+                                                </figcaption>
+                                            </figure>
+                                            <figure>
+                                                <figcaption>
+                                                    <time datetime="2018-03-09T05:46">
+                                                            March 9, 2018
+                                                    </time>
+                                                    <h4>
+                                                        <a href="https://PrimeFlix.github.io/game-of-thrones-season-01-episode-01-free-hd-video-stream/" class="inverse">Game of Thrones - Season 01 - Episode 01- Free HD Video Stream</a>
+                                                    </h4>
+                                                </figcaption>
+                                            </figure>
+                                    </div>
+                                </div>
                     </footer>
             </article>
             <div class="comments u-innerwrap">
