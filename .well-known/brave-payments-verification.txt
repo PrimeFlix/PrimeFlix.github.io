@@ -1,4 +1,0 @@
-This is a Brave Payments publisher verification file.
-
-Domain: primeflix.github.io
-Token: 8e9e25185a78458fdc1df271127b88f56990adba854e40543f4ed107d6d33868
