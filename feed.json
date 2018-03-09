@@ -10,19 +10,6 @@
     },
     "items": [
         {
-            "id": "https://PrimeFlix.github.io/game-of-thrones-season-01-episode-01-free-hd-video-stream/",
-            "url": "https://PrimeFlix.github.io/game-of-thrones-season-01-episode-01-free-hd-video-stream/",
-            "title": "Game of Thrones - Season 01 - Episode 01- Free HD Video Stream",
-            "summary": "Game of Thrones (2011) - Season 01 - Episode 01- Free HD&hellip;",
-            "author": {
-                "name": "PrimeFlix"
-            },
-            "tags": [
-            ],
-            "date_published": "2018-03-09T05:46:02+01:00",
-            "date_modified": "2018-03-09T05:46:02+01:00"
-        },
-        {
             "id": "https://PrimeFlix.github.io/game-of-thrones-2011-free-hd-video-stream/",
             "url": "https://PrimeFlix.github.io/game-of-thrones-2011-free-hd-video-stream/",
             "title": "Game of Thrones (2011) - Free HD Video Stream",
@@ -46,11 +33,10 @@
                 "name": "PrimeFlix"
             },
             "tags": [
-                   "Movies",
-                   "Animation"
+                   "Movies"
             ],
             "date_published": "2018-02-28T15:17:46+01:00",
-            "date_modified": "2018-03-09T06:27:06+01:00"
+            "date_modified": "2018-03-09T07:29:24+01:00"
         }
     ]
 }

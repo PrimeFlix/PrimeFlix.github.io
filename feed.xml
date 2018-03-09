@@ -3,28 +3,12 @@
     <title>primeflix</title>
     <link href="https://PrimeFlix.github.io/feed.xml" rel="self" />
     <link href="https://PrimeFlix.github.io" />
-    <updated>2018-03-09T07:24:26+01:00</updated>
+    <updated>2018-03-09T07:33:27+01:00</updated>
     <author>
         <name>PrimeFlix</name>
     </author>
     <id>https://PrimeFlix.github.io</id>
 
-    <entry>
-        <title>Game of Thrones - Season 01 - Episode 01- Free HD Video Stream</title>
-        <author>
-            <name>PrimeFlix</name>
-        </author>
-        <link href="https://PrimeFlix.github.io/game-of-thrones-season-01-episode-01-free-hd-video-stream/"/>
-        <id>https://PrimeFlix.github.io/game-of-thrones-season-01-episode-01-free-hd-video-stream/</id>
-
-        <updated>2018-03-09T05:46:02+01:00</updated>
-            <summary>
-                <![CDATA[
-                    Game of Thrones (2011) - Season 01 - Episode 01- Free HD&hellip;
-                ]]>
-            </summary>
-        <content></content>
-    </entry>
     <entry>
         <title>Game of Thrones (2011) - Free HD Video Stream</title>
         <author>
@@ -50,9 +34,8 @@
         <link href="https://PrimeFlix.github.io/sintel-2010-free-hd-video-stream/"/>
         <id>https://PrimeFlix.github.io/sintel-2010-free-hd-video-stream/</id>
             <category term="Movies"/>
-            <category term="Animation"/>
 
-        <updated>2018-03-09T06:27:06+01:00</updated>
+        <updated>2018-03-09T07:29:24+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://PrimeFlix.github.io/media/posts/2/Sintel-2010-Free-HD-Video-Stream.jpg" alt="" />
